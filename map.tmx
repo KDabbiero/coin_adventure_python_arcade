@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="my_tileset" tilewidth="128" tileheight="128" tilecount="10" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../../../../Downloads/platform_tutorial/platform_tutorial/images/tiles/boxCrate_double.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="../../../../Downloads/platform_tutorial/platform_tutorial/images/tiles/dirtCenter.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="../../../../Downloads/platform_tutorial/platform_tutorial/images/tiles/grassCliff_left.png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="../../../../Downloads/platform_tutorial/platform_tutorial/images/tiles/grassCliff_right.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="../../../../Downloads/platform_tutorial/platform_tutorial/images/tiles/grass.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="../../../../Downloads/platform_tutorial/platform_tutorial/images/tiles/grassHalf_left.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="../../../../Downloads/platform_tutorial/platform_tutorial/images/tiles/bridgeA.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="../../../../Downloads/platform_tutorial/platform_tutorial/images/tiles/grassHalf_mid.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../../../../Downloads/platform_tutorial/platform_tutorial/images/tiles/grassHalf_right.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../../../../Downloads/platform_tutorial/platform_tutorial/images/tiles/waterTop_high.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Platforms" width="25" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,6,8,8,8,8,9,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,
+0,1,0,0,0,0,0,0,0,0,0,0,6,8,8,9,0,0,0,0,1,0,0,0,0,
+6,8,8,8,9,0,0,1,0,0,6,9,0,0,0,0,0,0,6,8,8,9,0,0,0,
+0,0,0,0,0,0,6,8,9,0,0,0,0,0,0,0,0,5,0,0,0,0,6,8,9,
+0,6,8,8,9,0,0,0,0,0,0,6,9,0,6,8,9,7,6,8,9,0,0,0,0,
+0,0,0,0,0,0,6,8,8,9,0,0,0,0,0,0,0,0,0,0,0,6,8,9,0,
+7,7,7,7,0,0,0,0,0,0,0,3,4,0,8,1,8,8,0,0,0,0,0,0,0,
+0,0,0,0,6,9,7,7,7,6,9,0,0,0,0,8,0,0,6,8,8,8,9,0,0,
+0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,8,0,0,0,0,0,0,0,0,
+5,5,5,5,5,5,10,10,10,5,5,5,5,5,5,7,7,7,7,7,7,7,7,7,7,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,10,10,10,10,10,10,10,10,10,10
+</data>
+ </layer>
+</map>
